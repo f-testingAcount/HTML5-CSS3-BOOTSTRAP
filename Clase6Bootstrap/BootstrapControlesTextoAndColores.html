@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bootstrap 4 - Controles de texto y colores</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Titulos en Bootstrap-->
+        <h1>h1. Bootrstrap heading <small>Secondary text</small></h1>
+        <h2>h2. Bootrstrap heading <small>Secondary text</small></h2>
+        <h3>h3. Bootrstrap heading <small>Secondary text</small></h3>
+        <h4>h4. Bootrstrap heading <small>Secondary text</small></h4>
+        <h5>h5. Bootrstrap heading <small>Secondary text</small></h5>
+        <h6>h6. Bootrstrap heading <small>Secondary text</small></h6>
+        <br>
+        <br>
+
+        <!--Titulos con clase display-->
+        <h1>TAMAÑO TEXTO CON CLASE DISPLAY</h1>
+        <div class="display-1">Display-1</div>
+        <div class="display-2">Display-2</div>
+        <div class="display-3">Display-3</div>
+        <div class="display-4">Display-4</div>
+        <div>Display NO</div>
+        <br>
+        <br>
+        <br>
+
+        <!--Titulo con jumbotron-->
+        <div class="jumbtron bg-success">
+            <div class="display-1">
+                Texto de Jumbotron
+            </div>
+        </div>        
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <!--Texto destacado-->
+        <h1>TEXTO DESTACADO</h1>
+        <p>TEXTO SIN DESTACAR. Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, ea illum? Nihil a soluta minus?</p>
+        <p class="small">TEXTO PEQUEÑO. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, labore nihil! Numquam quidem cum explicabo.</p>
+        <p><strong>TEXTO EN NEGRITA. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem eveniet delectus soluta enim! Ratione, maxime.</strong></p>
+        <p><em>TEXTO ITALICO. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt nobis dolor obcaecati quae est ex.</em></p>
+        <p><b>TEXTO EN NEGRITA. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, veniam. Natus fugiat nesciunt blanditiis adipisci!</b></p>
+        <p><i>TEXTO ITALICO. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate suscipit aliquid dicta consectetur est quae.</i></p>
+
+        <p>TEXTO CON ABREVIATURAS. <abbr title="señor">Sr.</abbr> y  <abbr title="señora">Sra.</abbr></p>
+        <p>ESCRITURA MARKUP LANGUAGE <abbr title="HyperText Markup Language" class="initialise">HTML</abbr></p> <!--initialise es iniciales-->
+        
+    </div>
+
+        <!--Extracto de codigo-->
+        <h1>EXTRACTO DE CODIGO</h1>
+        <p>el elemento <code>&lt;section&gt;</code> es uno de los nuevos elementos de HTML5</p>
+        <pre>Mostrar bloque de codigo con pre -> &lt;p&gt;Asi se escribe un parrafo de texto&lt;/p&gt;</pre>
+        <!--El &lt (less than) equivale al signo menor (<) y el &gt (greater than) equivale al signo mayor (>)-->
+        <br>
+        
+        <!--Texto alineado-->
+        <p class="text-left">Texto alineado a la izquierda</p> <!--En estos casos cada p tiene su propio contenedor o sea que se ubican en distintos renglones-->
+        <p class="text-center">Texto centrado</p>
+        <p class="text-right">Texto alineado a la derecha</p>
+        <br>
+        <!--En estos casos con pull el alineado se ejecuta en el mismo contenedor o sea que se ubican en el mismo renglon-->
+        <div class="pull-left">Alineado a la izquierda con float</div>
+        <div class="pull-right">Alineado a la derecha con float</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <!--Colores de texto en Bootstrap predeterminados de acuerdo a lo que describen. Estos colores se pueden modificar desde CSS-->
+        <h1>COLORES DE TEXTO</h1>
+        <p class="text-muted"><b>Texto de colores - text-muted</b></p> <!--Color para texto dehabilitado-->
+        <p class="text-primary"><b>Texto de colores - text-primary</b></p>
+        <p class="text-secondary"><b>Texto de colores - text-secondary</b></p>
+        <p class="text-success"><b>Texto de colores - text-success</b></p>
+        <p class="text-info"><b>Texto de colores - text-info</b></p>
+        <p class="text-warning"><b>Texto de colores - text-warning</b></p>
+        <p class="text-danger"><b>Texto de colores - text-danger</b></p>
+        <p class="text-light"><b>Texto de colores - text-light</b></p>
+        <p class="text-dark"><b>Texto de colores - text-dark</b></p>
+    </div>
+    <br>
+    <br>
+    
+    <div class="container">
+        <!--Colores de fondo-->
+        <h1>COLORES DE FONDO</h1>
+        <p class="bg-muted">Hello Bootstrap</p> <!--El muted no tiene color de fondo-->
+        <p class="bg-primary">Hello Bootstrap</p> <!--bg es background-->
+        <p class="bg-secondary">Hello Bootstrap</p>
+        <p class="bg-info">Hello Bootstrap</p>
+        <p class="bg-success">Hello Bootstrap</p>
+        <p class="bg-warning">Hello Bootstrap</p>
+        <p class="bg-danger">Hello Bootstrap</p>
+        <p class="bg-light">Hello Bootstrap</p>
+        <p class="bg-dark text-light" style="padding-left: 10px;">Hello Bootstrap</p>
+    </div>
+    <br>
+    <br>
+
+    <div class="container">
+        <!--Alertas en Bootstrap-->
+        <h1>ALERTAS</h1>
+        <div class="alert alert-primary">ALERT Bootstrap! - primary</div>
+        <div class="alert alert-secondary">ALERT Bootstrap! - secondary</div>
+        <div class="alert alert-info">ALERT Bootstrap! - info</div>
+        <div class="alert alert-success">ALERT Bootstrap! - success</div>
+        <div class="alert alert-warning">ALERT Bootstrap! - warning</div>
+        <div class="alert alert-danger">ALERT Bootstrap! - danger</div>
+        <div class="alert alert-light">ALERT Bootstrap! - light</div>
+        <div class="alert alert-dark">ALERT Bootstrap! - dark</div>
+        <br>
+        <br>
+        
+        <h1>COMBINACIONES DE ALERTAS Y TAMAÑOS</h1>
+        <h1 class="alert alert-primary">Alert Bootstrap! H1 2.5rem</h1>
+        <h2 class="alert alert-secondary">Alert Bootstrap! H2 2.0rem</h2>
+        <h3 class="alert alert-info">Alert Bootstrap! H3 2.0rem</h3>
+        <h4 class="alert alert-warning">Alert Bootstrap! H4 1.5rem</h4>
+        <h5 class="alert alert-danger">Alert Bootstrap! H5 1.25rem</h5>
+        <h6 class="alert alert-light">Alert Bootstrap! H6 1.0rem</h6>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="display-1 alert alert-primary">Alertas D1 6rem</div>
+        <div class="display-2 alert alert-secondary">Alertas D2 5.5rem</div>
+        <div class="display-3 alert alert-info">Alertas D3 4.5rem</div>
+        <div class="display-4 alert alert-success">Alertas D4 3.5rem</div>
+        <br>
+        <br>
+
+        <!--Alert con boton de cerrado-->
+        <h1>ALERTA CON BOTON DE CERRADO</h1>
+        <div class="alert alert-danger display-3 alert-dismissable fade show">Alerta con boton de cierre
+            <button class="close" type="button" data-dismiss="alert"><i class="fa fa-close"></i></button><!--i de icono y fa de font awesome-->
+        </div>
+
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+</body>
+
+</html>
