@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Bootstrap 4 - Botones</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--Colores en botones-->
+        <h3>Colores en botones</h3>
+        <button class="btn btn-primary">Boton</button>
+        <button class="btn btn-secondary">Boton</button>
+        <button class="btn btn-info">Boton</button>
+        <button class="btn btn-success">Boton</button>
+        <button class="btn btn-warning">Boton</button>
+        <button class="btn btn-danger">Boton</button>
+        <button class="btn btn-light">Boton</button>
+        <button class="btn btn-dark">Boton</button>
+        <br>
+        <br>
+        <!--Botones con deiseño de fonde diferente-->
+        <h3>Botones con diseño de fondo diferente</h3>
+        <button class="btn btn-outline-primary">Boton</button>
+        <button class="btn btn-outline-secondary">Boton</button>
+        <button class="btn btn-outline-info">Boton</button>
+        <button class="btn btn-outline-success">Boton</button>
+        <button class="btn btn-outline-warning">Boton</button>
+        <button class="btn btn-outline-danger">Boton</button>
+        <button class="btn btn-outline-light">Boton</button>
+        <button class="btn btn-outline-dark">Boton</button>        
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <!--Agrupar botones-->
+        <h3>Agrupar botones</h3>
+        <div class="btn-group">
+            <button class="btn btn-primary" type="button">Boton button</button><button class="btn btn-secondary" type="menu">Boton menu</button><button class="btn btn-info" type="submit">Boton submit</button><button class="btn btn-danger" type="reset">Boton reset</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <!--Agrupar botones verticalmente-->
+        <h3>Agrupar botones verticalmente</h3>
+        <div class="btn-group-vertical">
+            <button class="btn btn-primary" type="button">Boton button</button><button class="btn btn-secondary" type="menu">Boton menu</button><button class="btn btn-info" type="submit">Boton submit</button><button class="btn btn-danger" type="reset">Boton reset</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <!--Agrupar botones-->
+        <h3>Agrupar botones</h3>
+        <div class="btn-group">
+            <div class="btn btn-success dropdown-toggle" data-toggle="dropdown">Seleccione item</div><div class="dropdown dropdown-menu"><span class="dropdown-item">Seleccione un item</span>
+                <a href="#" class="dropdown-item">Pagina 1</a>
+                <a href="#" class="dropdown-item">Pagina 2</a>
+                <a href="#" class="dropdown-item">Pagina 3</a>
+                <div class="dropdown-divider"></div>
+                <a href="https://google.com" class="dropdown-item">Pagina 4</a>
+            </div>
+            <button class="btn btn-primary" type="button">Boton button</button><button class="btn btn-secondary" type="menu">Boton menu</button><button class="btn btn-info" type="submit">Boton submit</button><button class="btn btn-danger" type="reset">Boton reset</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h3>Radio buttons (permite seleccionar uno entre todas las opciones)</h3>
+        <br>
+        <h4>El capitulo que mas me gusto</h4>
+        <div class="btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-info">
+                <input type="radio" name="radio1">
+                Capitulo 1
+            </label>
+            <label class="btn btn-info">
+                <input type="radio" name="radio1">
+                Capitulo 2
+            </label>
+            <label class="btn btn-info">
+                <input type="radio" name="radio1">
+                Capitulo 3
+            </label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h3>Checkbox buttons (permite seleccionar varias o todas las opciones que se presentan)</h3>
+        <br>
+        <h4>Mis capitulos favoritos</h4>
+        <div class="btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-info">
+                <input type="checkbox">
+                Capitulo 1
+            </label>
+            <label class="btn btn-info">
+                <input type="checkbox">
+                Capitulo 2
+            </label>
+            <label class="btn btn-info">
+                <input type="checkbox">
+                Capitulo 3
+            </label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="bg-info p-1"> <!-- p-1 es padding 1px-->
+            <button type="button" class="btn btn-secondary float-left">Ejemplo boton izquierda</button> <!--En el caso de utilizar float el boton no se incorpora dentro del div contenedor. Esto se soluciona incorporando la clase clearfix como mostrmamos a continuacion-->
+            <button type="button" class="btn btn-secondary float-right">Ejemplo boton derecha</button>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <h4>La clase clearfix introduce los botones dentro del div contenedo</h4>
+        <div class="bg-info p-1 clearfix"> <!-- La clase clearfix introduce los botones dentro del div contenedor-->
+            <button type="button" class="btn btn-secondary float-left">Ejemplo boton izquierda</button> <!--En el caso de utilizar float el boton no se incorpora dentro del div contenedor. Esto se soluciona incorporando la clase clearfix como mostrmamos a continuacion-->
+            <button type="button" class="btn btn-secondary float-right">Ejemplo boton derecha</button>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" ></script>
+</body>
+</html>
